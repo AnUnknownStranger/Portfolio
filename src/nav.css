@@ -1,0 +1,124 @@
+
+
+
+
+.navbar{
+    background-color: rgba(7, 89, 133, 0.472);
+    color:antiquewhite;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5rem;
+    padding: 0 30px;
+    width: 95%;
+    height: 80px;
+    border-radius: 25px;
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 2;
+}
+
+.CompSci{
+  font-family: 'Roboto Mono', monospace;
+}
+
+.navbar li {
+    position: relative;
+  }
+
+.navbar ul{
+    padding:0;
+    margin:0;
+    list-style: none;
+    display: flex;
+    gap:1rem;
+}
+
+
+/*.dropdown {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: rgba(12, 74, 110, 0.475);
+    z-index: 2;
+  }
+  
+  .navbar li:hover > .dropdown {
+    display: block;
+  }*/
+
+  .Award{
+    font-family: 'Roboto Mono', monospace;
+    cursor: pointer;
+  }
+
+  .Education{
+    font-family: 'Roboto Mono', monospace;
+    cursor: pointer;
+  }
+
+  .Education:hover{
+    background-color: rgb(7 89 133);
+  }
+.dropdown ul{
+    display: block;
+    margin: 10px;
+}
+.Home{
+    font-family: 'Roboto Mono', monospace;
+    cursor: pointer;
+  }
+
+  .Award:hover{
+    background-color: rgb(7 89 133);
+  }
+  .Home:hover{
+    opacity: 0.8;
+    color: orange;
+  }
+  
+  .Experience{
+    font-family: 'Roboto Mono', monospace;
+    cursor: pointer;
+  }
+  
+  .Experience:hover{
+    opacity: 0.8;
+    color: purple;
+  }
+  
+  .Project{
+    font-family: 'Roboto Mono', monospace;
+    cursor: pointer;
+  }
+  
+  .Project:hover{
+    opacity: 0.8;
+    color: blue;
+  }
+  
+  .Skills{
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .Skills:hover{
+    opacity: 0.8;
+    color: red;
+  }
+  
+  .Contact{
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .Contact:hover{
+    opacity: 0.8;
+    color: greenyellow;
+  }

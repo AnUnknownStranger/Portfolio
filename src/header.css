@@ -1,0 +1,33 @@
+.header{
+    position: relative;
+    text-align: center;
+  }
+
+
+.Linkeldin{
+        color: white;
+        background-color: cornflowerblue;
+        height: 40px;
+        width: 40px;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        font-size: 30px;
+        cursor: pointer;
+        font-size-adjust: 10px;
+        font-weight: bold;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+        border-radius: 2px;
+        border:1px solid rgba(255, 255, 255, 0.976);
+        line-height: 20px;
+        position: relative;
+        right:1.5%;
+        align-self: center;
+        margin-top: 60px;
+}
+
+.Linkeldin:hover{
+    opacity: 0.8;
+    color: aliceblue;
+}
+
+
+

@@ -1,0 +1,23 @@
+.Experiences{
+  width: 100%;
+  margin:auto;
+  text-align: center;
+  padding-top: 40px;
+  background-color:white;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  margin-top: 5%;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.timeline{
+    position: relative;
+    margin: 50px auto;
+    width: 1000px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.timeline h3{
+    font-weight: bolder;
+}

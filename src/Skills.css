@@ -1,0 +1,109 @@
+.overlay {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    height: 70%;
+    background-color: white;
+    z-index: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .ProgLan {
+    position: fixed;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    left: 34%;
+  }
+  
+  .body {
+    display: flex;
+    word-spacing: 150px;
+  }
+  
+  .python {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    margin-top: 5%;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    margin-left: 3%;
+  }
+  
+  .custom-image {
+    width: 30px;
+    height: auto;
+    position: absolute;
+    margin-left: 100px;
+    margin-top: -2%;
+    
+  }
+
+  .java{
+    width: 60px;
+    height: auto;
+    position: absolute;
+    margin-left: 300px;
+    margin-top: -3.2%;
+  }
+
+  .scala{
+    width: 30px;
+    height: auto;
+    position: absolute;
+    margin-left: 520px;
+    margin-top: -2.5%;
+  }
+
+.C{
+    width: 40px;
+    height: auto;
+    position: absolute;
+    margin-left: 680px;
+    margin-top: -2.8%;
+}
+
+.JS{
+    width: 50px;
+    height: auto;
+    position: absolute;
+    margin-left: 950px;
+    margin-top: -2.5%; 
+}
+
+.htmlcss{
+    width: 60px;
+    height: auto;
+    position: absolute;
+    margin-left: 1245px;
+    margin-top: -3%;  
+}
+
+.line2 {
+    position: absolute;
+    top: 20%;
+    left: 3%;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-size: 1.5rem;
+  }
+  .Languages {
+    position: fixed;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    left: 43%;
+    top:35%;
+  }
+
+  .lang{
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    margin-top: 12%;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    margin-left: 3%;
+    word-spacing: 150px;
+  }
+  
