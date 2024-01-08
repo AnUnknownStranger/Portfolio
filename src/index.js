@@ -1,6 +1,5 @@
 import React from 'react';
 import App from './App';
-import Contact from './Contact';
 import Skill from './Skills';
 import ReactDOM from 'react-dom';
 import Project from './Project';
@@ -14,7 +13,6 @@ ReactDOM.render(
         <Routes>
             <Route path='/' element={<App/>}></Route>
             <Route path='/Skills' element={<Skill/>}></Route>
-            <Route path='/Contact' element={<Contact/>}></Route>
             <Route path='/Project' element={<Project/>}></Route>
             <Route path='/Experience' element={<Experience/>}></Route>
         </Routes>
