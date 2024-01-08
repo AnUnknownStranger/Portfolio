@@ -1,29 +1,179 @@
-.projover {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 80%;
-    height: 800px;
-    overflow: auto;
-    background-color: white;
-    z-index: 1;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.project{
+  min-height:110vh;
+  width: 100%;
+  margin:auto;
+  text-align: center;
+  padding-top: 40px;
+  background-position: center;
+  background-size: cover;
+  position: center;
+  background-color: white;
   }
 
-  .Projects {
-    position: fixed;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 40px;
+  .ProjectHeader{
+    width: 100%;
+    margin:auto;
     text-align: center;
-    left: 46%;
+    padding-top: 25px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    margin-top: 5%;
+    font-family: 'Roboto Mono', monospace;
   }
 
-  .projdes{
-    font-family: "Comic Sans MS", "Comic Sans", cursive;
-    position: absolute;
-    margin-top: 6%;
+  .R1{
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-around;
   }
+
+  .large {
+    font-weight: bold;
+    font-size: 1.5em;
+  }
+
+  .small {
+    font-weight: bold;
+    font-size: 1em;
+  }
+
+  .bullet {
+    list-style-type: none; 
+    padding-left: 0;
+  }
+  
+  .bullet li {
+    margin-bottom: 10px; 
+    padding-left: 1.5em; 
+    position: relative;
+  }
+  
+  .bullet li::before {
+    content: "\2022";
+    color: #000000; 
+    display: inline-block;
+    width: 1em;
+    margin-left: 0em; 
+    position: absolute;
+    left: 0;
+  }
+  
+  .col1 {
+    flex-basis: 31%;
+    background-color: rgba(255, 246, 240, 0.826);
+    background-position: center;
+    border-radius: 10px;
+    padding: 20px 12px;
+    box-sizing: border-box;
+  }
+  
+  .col1:hover {
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+  }
+  
+  .R1 .col1 {
+    position: relative;
+  }
+  
+  .R1 .col1 .PJimg {
+    width: 90%;
+    height: auto;
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 100%; /* Adjusted this to 100% */
+    margin-left: 2%;
+    z-index: 11; /* Ensure a higher z-index for the image */
+  }
+  
+  .R1 .col1:hover .PJimg {
+    display: block;
+  }
+
+  .R1 .col1 .PJvac {
+    width: 70%;
+    height: auto;
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 100%; /* Adjusted this to 100% */
+    margin-left: 2%;
+    z-index: 11; /* Ensure a higher z-index for the image */
+  }
+  
+  .R1 .col1:hover .PJvac {
+    display: block;
+  }
+  
+  .col2 {
+    flex-basis: 31%;
+    background-color: rgba(255, 246, 240, 0.826);
+    background-position: center;
+    border-radius: 10px;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    position: relative;
+  }
+  
+  .col2:hover {
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+  }
+  
+  .R1 .col2 {
+    position: relative;
+  }
+  
+  .R1 .col2 .PJimg1 {
+    width: 50%;
+    height: auto;
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 100%; /* Adjusted this to 100% */
+    margin-right: 2%;
+    z-index: 11; /* Ensure a higher z-index for the image */
+  }
+  
+  .R1 .col2:hover .PJimg1 {
+    display: block;
+  }
+
+  .col3 {
+    flex-basis: 31%;
+    background-color: rgba(255, 246, 240, 0.826);
+    background-position: center;
+    border-radius: 10px;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    position: relative;
+  }
+  
+  .col3:hover {
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+  }
+  
+  .R1 .col3 {
+    position: relative;
+  }
+  
+  .R1 .col3 .PJimg {
+    width: 150%;
+    height: auto;
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 100%; /* Adjusted this to 100% */
+    margin-right: 2%;
+    z-index: 11; /* Ensure a higher z-index for the image */
+  }
+  
+  .R1 .col3:hover .PJimg {
+    display: block;
+  }
+  
+  
 

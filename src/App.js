@@ -16,30 +16,29 @@ function App(){
         <section className="Educations">
             <h1 className="edu">Education</h1>
             <p className="edudes">
-                    <span>University At Buffalo
-                    <img src="./images/ub.png" alt="UBlogo" className="ublogoedu"/>
-                    </span>
-                    <span>&nbsp;&nbsp;Computer Science B.S.</span><br/>
-                    <span>&nbsp;&nbsp;Fall 2021-Fall 2024</span>
+                University at Buffalo<br />
+                <img src="./images/ub.png" alt="UBlogo" className="ublogoedu" /> <br/>
+                Computer Science B.S.<br />
+                Fall 2021-Fall 2024
             </p>
             <br/><br/>
             <h2>Courses Taken</h2>
-            <div className="row1">
-            <div className="c1">
+            <div className="row2">
+            <div className="c2">
                 <p className="cse115">
                     <h3>CSE115</h3>
                     <span>Introduction To Computer Science I</span><br/><br/>
                     <span>"The fundamentals of computer science with an emphasis on applying programming skills to solve problems and increase human efficiency. Topics include variables, data types, expressions, control flow, functions, input/output, data storage, networking, security, selection, sorting, iteration and the use of aggregate data structures such as lists and more general collections"</span>
                 </p>
             </div>
-            <div className="c1">
+            <div className="c2">
                 <p className="cse116">
                     <h3>CSE116</h3>
                     <span>Introduction To Computer Science II</span><br/><br/>
                     <span>"Emphasizes design decisions that affect the efficiency, expandability, and maintainability of code while analyzing the differences amongst a variety of approaches. Design decisions analyzed include choice of data structures and object-oriented techniques such as encapsulation, polymorphism, and inheritance. Additional topics include the use of recursion, multithreading, parallelism, hardware, graph and tree traversals, asymptotic analysis, divide and conquer, databases, testing, and multi-language integration"</span>
                 </p>
             </div>
-            <div className="c1">
+            <div className="c2">
                 <p className="cse191">
                     <h3>CSE191</h3>
                     <span>Discrete Structure</span><br/><br/>
@@ -76,7 +75,23 @@ function App(){
                     <h3>CSE341</h3>
                     <span>Computer Organization</span><br/><br/>
                     <span>"Basic hardware and software issues of computer organization. Topics include computer abstractions and technology, performance evaluation, instruction set architecture, arithmetic logic unit design, advanced computer arithmetic, datapath and control unit design, pipelining, memory hierarchy, input-output."
-</span>
+                    </span>
+                </p>
+            </div>
+            <div className="c3">
+                <p className="cse365">
+                    <h3>CSE365</h3>
+                    <span>Computer Security</span><br/><br/>
+                    <span>"Introductory concepts of computer security. The main foci of this course will be network, web security, and application security. Part of the work will be dedicated to ethical aspects of security, and online privacy. The course will be heavily hands-on, as opposed to theoretical teaching. Category: Software Systems."
+                    </span>
+                </p>
+            </div>
+            <div className="c3">
+                <p className="cse460">
+                    <h3>CSE460</h3>
+                    <span>Data Models and Query Language</span><br/><br/>
+                    <span>"focuses on the issues of data models and query languages that are relevant for building present-day database applications, covering both well-established and cutting-edge frameworks. It adopts the user's point of view, discussing primarily conceptual and foundational topics. Specific topics include: Entity-Relationship and relational database design, integrity constraints, graph and semi-structured data models, relational, graph and semi-structured query languages, DATALOG, recursion, path expressions, selected current topics."
+                    </span>
                 </p>
             </div>
             </div>
