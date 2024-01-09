@@ -33,8 +33,6 @@ export default function Navbar(){
       </li>
       <li>
       <Link className="Contact"  onClick={scrollToContact}>Contacts</Link>
-
-
       </li>
     </ul>
    </nav>
