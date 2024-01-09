@@ -54,12 +54,7 @@ p{
   margin: 0 auto;       /* Center the container horizontally */
 }
 
-.ublogoedu {
-  width: 30px;
-  height: auto;
-  display: inline-block; /* Display the image as an inline-block element */
-  vertical-align: middle; /* Vertically align the image in the middle of the line */
-}
+
 
 
 h2{
