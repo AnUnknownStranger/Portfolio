@@ -17,7 +17,7 @@ function App(){
             <h1 className="edu">Education</h1>
             <p className="edudes">
                 University at Buffalo<br />
-                <img src="./images/ub.png" alt="UBlogo" className="ublogoedu" /> <br/>
+                <img src="images/ub.png" alt="UBlogo" className="ublogoedu" /> <br/>
                 Computer Science B.S.<br />
                 Fall 2021-Fall 2024
             </p>
