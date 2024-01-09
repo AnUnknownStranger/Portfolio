@@ -9,7 +9,7 @@ import { BrowserRouter as Router,Routes, Route } from "react-router-dom";
 
 ReactDOM.render(
     
-  <Router basename='/Portfolio'>
+  <Router basename='/Portfolio/'>
   <Routes>
       <Route path='/' element={<App/>}></Route>
       <Route path='/Skills' element={<Skill/>}></Route>
