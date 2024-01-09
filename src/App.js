@@ -111,7 +111,7 @@ function App(){
         </section>
         <section className="bottom" id="contactSection">
             <h1 className="contactheader">Contact</h1>
-            <p className="contactdes">
+            <p className="contactdes">y
                 <span>Email: wchen83@buffalo.edu&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
                 <span>CellPhone: (917)-327-8334</span><br/><br></br>
                 <span className="copyrights">&copy;Wei Chen 2023</span>
