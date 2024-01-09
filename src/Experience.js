@@ -12,7 +12,7 @@ function Experience(){
             </div>
             <div className="timeline">
                 <div className="container left">
-                    <img src="./images/ub.png"/>
+                    <img src="./images/ub1.png"/>
                     <div className="Research">
                         <h3>Undergraduate Research(CTF Platform Development)</h3>
                         <small>August 2023-January 2024</small>
@@ -24,7 +24,7 @@ function Experience(){
                     </div>
                 </div>
                 <div className="container right">
-                    <img src="./images/ub.png"/>
+                    <img src="./images/ub1.png"/>
                     <div className="UTA">
                         <h3>Undergraduate Teaching Assistant(Algorithm and Complexity)</h3>
                         <small>August 2023-Present</small>
