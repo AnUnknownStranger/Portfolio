@@ -109,7 +109,7 @@ function App(){
                 </div>
             </div>
         </section>
-        <section className="bottom">
+        <section className="bottom" id="contactSection">
             <h1 className="contactheader">Contact</h1>
             <p className="contactdes">
                 <span>Email: wchen83@buffalo.edu&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
